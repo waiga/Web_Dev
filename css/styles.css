@@ -1,9 +1,20 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+
 }
 
 h1 {
-  margin-top: 0;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 58px;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
 }
 
 div {
@@ -12,19 +23,26 @@ div {
 
 .top-container {
   background-color: #FCD1D1;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
 
 .middle-container {
-  background-color: #ECE2E1;
-  width: 200px;
-  height: 200px;
-  border: solid 20px;
-  margin-left: 260px;
+
 }
 
 .bottom-container {
-  background-color: #D3E0DC;
-  width: 200px;
-  height: 200px;
-  margin-left: 500px;
+
 }
